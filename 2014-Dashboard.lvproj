@@ -206,6 +206,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="Scores.ctl" Type="VI" URL="../Vision/Scores.ctl"/>
+			<Item Name="target score.ctl" Type="VI" URL="../Vision/target score.ctl"/>
+			<Item Name="waffle.ctl" Type="VI" URL="../Vision/waffle.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
