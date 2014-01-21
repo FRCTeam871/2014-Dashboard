@@ -26,7 +26,10 @@
 			<Item Name="Target Aquisition.vi" Type="VI" URL="../Vision/Target Aquisition.vi"/>
 			<Item Name="Target Selection.vi" Type="VI" URL="../Vision/Target Selection.vi"/>
 			<Item Name="Target Finder.vi" Type="VI" URL="../Vision/Target Finder.vi"/>
+		</Item>
+		<Item Name="Utils" Type="Folder">
 			<Item Name="HSLRange.ctl" Type="VI" URL="../Vision/HSLRange.ctl"/>
+			<Item Name="TargetScores.ctl" Type="VI" URL="../Vision/TargetScores.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
