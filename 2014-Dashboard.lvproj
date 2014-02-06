@@ -26,13 +26,15 @@
 			<Item Name="Target Aquisition.vi" Type="VI" URL="../Vision/Target Aquisition.vi"/>
 			<Item Name="Target Selection.vi" Type="VI" URL="../Vision/Target Selection.vi"/>
 			<Item Name="Target Finder.vi" Type="VI" URL="../Vision/Target Finder.vi"/>
-			<Item Name="Hollowness Score Finder.vi" Type="VI" URL="../Vision/Hollowness Score Finder.vi"/>
+			<Item Name="ConvertBlob.vi" Type="VI" URL="../Vision/ConvertBlob.vi"/>
+			<Item Name="ClassifyBlobs.vi" Type="VI" URL="../Vision/ClassifyBlobs.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="HSLRange.ctl" Type="VI" URL="../Vision/HSLRange.ctl"/>
 			<Item Name="TargetScores.ctl" Type="VI" URL="../Vision/TargetScores.ctl"/>
 			<Item Name="BlobMeasurementType.ctl" Type="VI" URL="../Vision/BlobMeasurementType.ctl"/>
 			<Item Name="ScoredBlobType.ctl" Type="VI" URL="../Vision/ScoredBlobType.ctl"/>
+			<Item Name="CombinedScore.ctl" Type="VI" URL="../Vision/CombinedScore.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -206,6 +208,7 @@
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
