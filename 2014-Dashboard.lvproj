@@ -30,6 +30,7 @@
 			<Item Name="ClassifyBlobs.vi" Type="VI" URL="../Vision/ClassifyBlobs.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
+			<Item Name="CombinedTarget.ctl" Type="VI" URL="../Vision/CombinedTarget.ctl"/>
 			<Item Name="HSLRange.ctl" Type="VI" URL="../Vision/HSLRange.ctl"/>
 			<Item Name="TargetScores.ctl" Type="VI" URL="../Vision/TargetScores.ctl"/>
 			<Item Name="BlobMeasurementType.ctl" Type="VI" URL="../Vision/BlobMeasurementType.ctl"/>
