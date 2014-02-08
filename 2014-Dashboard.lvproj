@@ -27,6 +27,7 @@
 			<Item Name="Target Selection.vi" Type="VI" URL="../Vision/Target Selection.vi"/>
 			<Item Name="Target Finder.vi" Type="VI" URL="../Vision/Target Finder.vi"/>
 			<Item Name="Hollowness Score Finder.vi" Type="VI" URL="../Vision/Hollowness Score Finder.vi"/>
+			<Item Name="Target Converter.vi" Type="VI" URL="../Vision/Target Converter.vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="HSLRange.ctl" Type="VI" URL="../Vision/HSLRange.ctl"/>
@@ -204,6 +205,7 @@
 				<Item Name="WPI_DashboardUpdate Table Values.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Dashboard/WPI_DashboardUpdate Table Values.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
