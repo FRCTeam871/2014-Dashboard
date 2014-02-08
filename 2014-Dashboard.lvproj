@@ -33,6 +33,9 @@
 			<Item Name="HSLRange.ctl" Type="VI" URL="../Vision/HSLRange.ctl"/>
 			<Item Name="TargetScores.ctl" Type="VI" URL="../Vision/TargetScores.ctl"/>
 			<Item Name="Target Type.ctl" Type="VI" URL="../Vision/Target Type.ctl"/>
+			<Item Name="Teepee.vi" Type="VI" URL="../Vision/Teepee.vi"/>
+			<Item Name="Targetsss.ctl" Type="VI" URL="../Vision/Targetsss.ctl"/>
+			<Item Name="Scores.ctl" Type="VI" URL="../Vision/Scores.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -214,6 +217,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="Control 2.ctl" Type="VI" URL="../Vision/Control 2.ctl"/>
+			<Item Name="Control 7.ctl" Type="VI" URL="../Vision/Control 7.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -230,7 +235,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/Dashboard.exe</Property>
