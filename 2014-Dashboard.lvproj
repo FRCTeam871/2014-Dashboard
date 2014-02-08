@@ -217,8 +217,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Control 2.ctl" Type="VI" URL="../Vision/Control 2.ctl"/>
-			<Item Name="Control 7.ctl" Type="VI" URL="../Vision/Control 7.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
