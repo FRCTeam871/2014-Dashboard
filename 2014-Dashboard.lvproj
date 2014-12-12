@@ -34,6 +34,7 @@
 			<Item Name="Target Type.ctl" Type="VI" URL="../Vision/Target Type.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="ShooterHeight.vi" Type="VI" URL="../../2014-Robot/871/Subsystems/ShooterHeight.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -212,6 +213,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="Global 4.vi" Type="VI" URL="../../2014-Robot/871/Subsystems/Global 4.vi"/>
+			<Item Name="TargetHeight.vi" Type="VI" URL="../../2014-Robot/871/Subsystems/TargetHeight.vi"/>
+			<Item Name="Gravity.vi" Type="VI" URL="../../2014-Robot/871/Subsystems/Gravity.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
